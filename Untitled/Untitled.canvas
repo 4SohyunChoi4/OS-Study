@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"4c24f6761f0476fc","x":-740,"y":-120,"width":400,"height":400,"type":"file","file":"바람개비 OS 주제/Rocky linux 8 Minimal Install - VMware.md"},
+		{"id":"a441116a49b57610","x":-160,"y":-320,"width":540,"height":400,"type":"link","url":"https://rockylinux.org/download"},
+		{"id":"c31d48aa4c82bdf8","x":-760,"y":360,"width":400,"height":400,"type":"file","file":"바람개비 OS 주제/Rocky linux 8 Minimal Install - VirtualBox.md"}
+	],
+	"edges":[
+		{"id":"6e03a29b6c419875","fromNode":"4c24f6761f0476fc","fromSide":"right","toNode":"a441116a49b57610","toSide":"left"}
+	]
+}

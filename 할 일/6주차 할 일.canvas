@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"f9abbffa2cb05873","type":"file","file":"바람개비 OS 주제/SAR.md","x":490,"y":567,"width":530,"height":440},
+		{"id":"29356ba03b3373ca","type":"text","text":"- [x] 서비스 iscsi, iscsi-d 와의 차이\n- [x] iscsiadm 옵션\n- [x] cifs \n- [x] targetcli saveconfig - autosave(8버전부터)","x":-257,"y":147,"width":560,"height":173},
+		{"id":"55b69b8e1d022920","type":"text","text":"의문\nsa 치면 왜 아무것도 안나오는가","x":-273,"y":1022,"width":296,"height":98},
+		{"id":"f80f985478266539","type":"text","text":"- [x] sar config의 위치\n- [x] cron 8가지에 대해 알아오기\n- [x] sar q p 옵션 알아오기 - 부하 상태에 대해 알 수있다\n- [x] iowait?\n- [x] steal","x":-127,"y":537,"width":430,"height":250},
+		{"id":"3d01ad394a372ed3","type":"text","text":" ==메모리는 free부터 사용한다. -> buffer/cache -> swap(디스크여서 느림)==\n\n```\n[root@localhost cron.d]# free -m\n              total        used        free      shared  buff/cache   available\nMem:           2754         264        2040           8         448        2320\nSwap:          2047           0        2047\n\n```\n\n***메모리를 디스크로 내린다***\n**이유**\n- 메모리 부족\n**해결**\n* swap 이용 ( 디스크로 내리기 때문에 느려짐)\n\t사용하지 않는 메모리 영역이나 현재 우선순위가 낮은 데이터들을 디스크의 스왑 공간에 저장하여, RAM을 비우고 다른 프로세스를 실행할 수 있게 한다.\n\t여유가 생기면 다시 디스크 -> 메모리로 올린다 <= **swapping**\n- 버퍼링(Buffered I/O)\n\t\t메모리의 버퍼에 먼저 저장 -> 버퍼 꽉 차면 -> 디스크에 데이터를 내림(**flush**)\n\t\t-> 디스크의 접근 횟수 줄이고, 성능을 최적화 ","x":358,"y":1160,"width":794,"height":571},
+		{"id":"105a7c820fe8439c","type":"file","file":"바람개비 OS 주제/Process.md","x":140,"y":-988,"width":400,"height":400},
+		{"id":"0450ac28cbb8c1e0","type":"text","text":"blkid → 장치에 대한 uuid값 조회\n*파일시스템 UUID*","x":-290,"y":-818,"width":250,"height":100},
+		{"id":"713461c60f756b8e","type":"text","text":"","x":810,"y":-683,"width":250,"height":60},
+		{"id":"557379d84a83de61","type":"text","text":"/usr/bin\n/user/sbin\nNetworkManager nmcli 동작하는 디렉토리 위치\n*명령어의 위치*","x":-290,"y":-665,"width":276,"height":155},
+		{"id":"6afb8f3b2d1e289b","type":"text","text":"\n![[Pasted image 20250401182530.png]]\n* 파티션은 고정적이며, 물리적 개념\n* 볼륨은 유동적이며, 논리적 개념","x":794,"y":-869,"width":402,"height":372},
+		{"id":"4d1a8313f4173e22","type":"file","file":"바람개비 OS 주제/LVM 설정.md","x":594,"y":-400,"width":400,"height":400},
+		{"id":"be7817981bbaa38e","type":"text","text":"- [x] fstab에서 _ netdev의 의미\n- [x] vgs 주요 옵션\n ","x":-85,"y":-297,"width":339,"height":77},
+		{"id":"d2d5eb9e7921d6e4","type":"file","file":"바람개비 OS 주제/ISCISI.md","x":594,"y":120,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"85d8e6a376e9bf51","fromNode":"0450ac28cbb8c1e0","fromSide":"right","toNode":"105a7c820fe8439c","toSide":"left"},
+		{"id":"4fc7e4525ce3e529","fromNode":"105a7c820fe8439c","fromSide":"right","toNode":"6afb8f3b2d1e289b","toSide":"top"},
+		{"id":"d898cf6bbe57493a","fromNode":"557379d84a83de61","fromSide":"right","toNode":"105a7c820fe8439c","toSide":"left"},
+		{"id":"589ce456e8ab8616","fromNode":"f80f985478266539","fromSide":"right","toNode":"f9abbffa2cb05873","toSide":"left"},
+		{"id":"94832f5e88b2f463","fromNode":"f9abbffa2cb05873","fromSide":"bottom","toNode":"3d01ad394a372ed3","toSide":"top"},
+		{"id":"091ce80e98fa3791","fromNode":"29356ba03b3373ca","fromSide":"right","toNode":"d2d5eb9e7921d6e4","toSide":"left"},
+		{"id":"a9bd1b023a766b58","fromNode":"f80f985478266539","fromSide":"bottom","toNode":"55b69b8e1d022920","toSide":"top"},
+		{"id":"dcc1489ebc89e76b","fromNode":"be7817981bbaa38e","fromSide":"right","toNode":"4d1a8313f4173e22","toSide":"left"}
+	]
+}

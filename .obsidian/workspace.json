@@ -1,0 +1,300 @@
+{
+  "main": {
+    "id": "aa09aa893903ef10",
+    "type": "split",
+    "children": [
+      {
+        "id": "e79f228d865127af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "353c198c5711620f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "바람개비 OS 주제/네트워크 설정.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "네트워크 설정"
+            }
+          },
+          {
+            "id": "b053bf91fda78c52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "할 일/7주차 할 일.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7주차 할 일"
+            }
+          },
+          {
+            "id": "a278d1b208b48b72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "하이퍼스레딩.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "하이퍼스레딩"
+            }
+          },
+          {
+            "id": "d5491b8444add5e6",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "할 일/6주차 할 일.canvas",
+                "viewState": {
+                  "x": 453,
+                  "y": 326,
+                  "zoom": -1.636470876004653
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "6주차 할 일"
+            }
+          },
+          {
+            "id": "6d892e278f3e964a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "바람개비 OS 주제/LVM 설정.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LVM 설정"
+            }
+          },
+          {
+            "id": "0a179bd7267fd9ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "바람개비 OS 주제/SAR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SAR"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "da93e84f2009ac11",
+    "type": "split",
+    "children": [
+      {
+        "id": "04377ad076785558",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b793b699892b8789",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6dd8fcd2c45f00bb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6aa8bde427279787",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "56080ca9ab545a1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d12aa3ff39a4df3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb91ebd187060695",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "바람개비 OS 주제/Process.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Process"
+            }
+          },
+          {
+            "id": "a41deb8c41c6923f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "바람개비 2주차/바람개비 2주차.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 바람개비 2주차"
+            }
+          },
+          {
+            "id": "b82d15eb7c21c5c0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "47b89d52619008cc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "할 일/6주차 할 일.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 6주차 할 일"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "a278d1b208b48b72",
+  "lastOpenFiles": [
+    "cron.md",
+    "lvm.md",
+    "NFS, SMB.md",
+    "RAID.md",
+    "할 일/7주차 할 일.md",
+    "바람개비 OS 주제/계정 설정.md",
+    "할 일/6주차 할 일.canvas",
+    "바람개비 OS 주제/네트워크 설정.md",
+    "바람개비 OS 주제/컨테이너 환경으로 web 올리기.md",
+    "바람개비 OS 주제/LVM 설정.md",
+    "바람개비 OS 주제/Process.md",
+    "하이퍼스레딩.md",
+    "백업.md",
+    "바람개비 OS 주제/SAR.md",
+    "바람개비 OS 주제/ISCISI.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Untitled/Pasted image 20250408220514.png",
+    "Untitled/Pasted image 20250408220511.png",
+    "Untitled/Pasted image 20250408220508.png",
+    "Untitled/Pasted image 20250408191320.png",
+    "Untitled/Pasted image 20250408191317.png",
+    "Untitled/Pasted image 20250408182019.png",
+    "Untitled/Pasted image 20250408173531.png",
+    "Untitled/Pasted image 20250408171534.png",
+    "Untitled/Pasted image 20250408171307.png",
+    "바람개비 OS 주제/스토리지 할당 방식.md",
+    "Untitled/Pasted image 20250402094523.png",
+    "할 일/5주차 할 일.md",
+    "Untitled/Network.canvas",
+    "할 일/6주차 할일.md",
+    "2025-03-26.md",
+    "바람개비 OS 주제/Rocky linux 8 Minimal Install - VMware.md",
+    "Untitled/OpenAPI.md",
+    "Untitled/Rocky linux 8 Minimal Install2.md",
+    "Untitled/Untitled.canvas",
+    "할 일/3주차 할 일.md",
+    "할 일/4주차 할 일.md",
+    "바람개비 OS 주제",
+    "할 일",
+    "바람개비 3주차/Untitled",
+    "바람개비 3주차",
+    "Untitled",
+    "바람개비2주차",
+    "바람개비 2주차",
+    "Photo",
+    "Copliot",
+    "바람개비 1주차",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas"
+  ]
+}
